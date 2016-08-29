@@ -1,0 +1,1 @@
+module.exports = require("./systemjs-less-plugin@1.8.3/less");
