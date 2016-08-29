@@ -32,11 +32,17 @@ module.exports = {
     },
     systemjs: {
         baseURL: "/",
-       // production: true,
+        // production: true,
         defaultJSExtensions: true,
         paths: {
             "github:*": `jspm_packages/github/*`,
             "npm:*": `jspm_packages/npm/*`
+        },
+        packages: {
+            "app": {
+                "main": "main",
+                "defaultExtension": "ts"
+            }
         }
     }
 };
