@@ -7,11 +7,11 @@ Project demonstrates production workflow with JSPM, Typescript and Less. It also
 2. Run **_"jspm install"_**
 
 3. For building multi branded _less_ based styles, we have to register customized version of less plugin  
-  _cd bin\jspm\plugins\systemjs-less-plugin@1.8.3_  
-  _jspm link github:plugins/systemjs-less-plugin@1.8.3_  
+  **_cd bin\jspm\plugins\systemjs-less-plugin@1.8.3_**  
+  **_jspm link github:plugins/systemjs-less-plugin@1.8.3_**  
   go back to the project directory and  
-  _cd jspm-typescript_  
-  _jspm install --link github:plugins/systemjs-less-plugin@1.8.3_  
+  **_cd jspm-typescript_**  
+  **_jspm install --link github:plugins/systemjs-less-plugin@1.8.3_**  
     
      
 **Workflow:**
